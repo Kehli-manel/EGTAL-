@@ -1,0 +1,100 @@
+body {
+    background-image: url('file:///c:/Users/user/Desktop/egtal2/assets/src/background.jpg');
+
+}
+
+.header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #4E5E80;
+
+    color: #fff;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #4E5E80;
+    padding: 20px;
+}
+
+.footer-titles {
+    color: #98a2b8;
+    font-size: 18px;
+}
+
+.cnt {
+    border-left: #eeeeec54 solid 0.5px;
+}
+
+.cnt-p {
+    color: #1b1b1b;
+    font-size: 16px;
+
+}
+
+.nos-services {
+    border-left: #eeeeec54 solid 0.5px;
+}
+
+.footer-links a {
+    font-size: 16px;
+    color: #1b1b1b;
+
+    transition: color 200ms ease-out;
+
+    &:hover {
+        color: rgb(172, 2, 2);
+        text-decoration: none;
+
+    }
+}
+
+@media (max-width: 900px) {
+    .header-info {
+        display: none;
+    }
+}
+
+h1 {
+    font-size: 40px;
+    color: #4E5E80;
+    margin: 0 0 10px 30px;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+}
+
+.realisation-img {
+    width: 300px;
+    height: 300px;
+    transition: all 300ms ease-in-out;
+    box-shadow: -1px -1px 24px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px -1px 24px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -1px 24px -6px rgba(0, 0, 0, 0.75);
+
+    &:hover {
+        transform: scale(1.06);
+        opacity: 0.8;
+    }
+}
+
+.container {
+    background-color: #EEEEEC;
+
+}
+
+.projets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
